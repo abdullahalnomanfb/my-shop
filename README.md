@@ -1,10 +1,20 @@
-We are trying to Clone Slack using React , Redux and Firebase
 
-This repository is part of a youtube tutorial series , if you are interested to learn how to development is done , you can go through this playlist. https://www.youtube.com/playlist?list=PLGmKMg3aRkXg0A654C4WimZiZvoxv4NEG
+# FiXMOIX Auto Service
 
-Both the tutorial series and this repository are currently work in progress, i will add new features and upload the video and commit the changes.
+This project was bootstrapped with Create React App.
 
+## Available Scripts
 
-Live Demo of the App - https://slack-react-clone-aeccf.web.app
+In the project directory, you can run:
+Open [https://car-repair-service-11880.web.app] to view
 
-<a href="https://discord.gg/qkkW7KFxCV">Join the CK Algos Discord</a> 
+## About the project 
+
+In the projects has included many type of things. Specially in this projects has been included react router that you can see.Many things has been included those are as follows:
+
+* React Router
+* React Bootstrap
+* Font Awesome ( Specially social icon)
+* MongoDB
+* Express
+* Node.js

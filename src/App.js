@@ -11,19 +11,17 @@ import ProductDetail from './Components/ProductDetail';
 
 const App = () => {
   return (
-    <div>
+    <Router >
+      <Header />
+      <Switch>
+        <Route path="/" exact component={ProductListing} />
+        <Route path="/product/:productId" exact component={ProductDetail} />
+        <Route path="*">
+          <h3 className="text-center mt-5 ">404 NOT FOUND</h3>
+        </Route>
+      </Switch>
+    </Router>
 
-      <Router >
-        <Header />
-        <Switch>
-
-          <Route path="/" exact component={ProductListing} />
-          <Route path="/product/:productId" exact component={ProductDetail} />
-          <Route > 404 Not Fount! </Route>
-          
-        </Switch>
-      </Router>
-    </div>
   );
 };
 
