@@ -1,14 +1,13 @@
-
 import React from 'react';
-
+import { Navbar } from 'react-bootstrap';
 const Header = () => {
     return (
-        <div className="ui fixed menu">
-            <div className="ui container center">
-                <h2>FakeShop</h2>
-            </div>
-            
-        </div>
+        <Navbar  className="sticky-top mb-5" bg="dark" variant="dark">
+            <Navbar.Brand href="/">
+                {' '}
+      My Shop
+    </Navbar.Brand>
+        </Navbar>
     );
 };
 
