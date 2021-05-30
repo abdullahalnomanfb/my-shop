@@ -1,6 +1,7 @@
 import React from 'react';
 import { Card, Button } from 'react-bootstrap';
 import { useSelector } from 'react-redux';
+import { Link } from 'react-router-dom';
 
 const Products = () => {
 
@@ -11,7 +12,7 @@ const Products = () => {
 
         return (<div className="col-md-4 col-lg-3" key={id}>
 
-
+        
             <Card className=" mb-3" style={{}} >
                 <div style={{with:'200px'}} className="text-center">
                 <Card.Img variant="top" src={image} style={{height:'250px',width:'250px',padding:'10px'}} />
@@ -24,7 +25,9 @@ const Products = () => {
                         </div>
                
                 </Card.Body>
+                <Link to={`/product/${id}`}>
                 <div className="text-center p-3"><Button variant="primary"> Buy Now</Button></div>
+                </Link>
             </Card>
 
 

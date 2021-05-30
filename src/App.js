@@ -18,7 +18,7 @@ const App = () => {
         <Switch>
 
           <Route path="/" exact component={ProductListing} />
-          <Route path="/product/:productID" exact component={ProductDetail} />
+          <Route path="/product/:productId" exact component={ProductDetail} />
           <Route > 404 Not Fount! </Route>
           
         </Switch>
